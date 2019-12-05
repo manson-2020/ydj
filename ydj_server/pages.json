@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+		    "app-plus": {"titleNView": false,
+			"softinputMode": "adjustResize"} 
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "驿到家"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": "余额提现记录"
+			}
+		},
+		{
+			"path": "pages/poststation/poststation",
+			"style": {
+				"navigationBarTitleText": "驿站定位基本信息"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				 "app-plus": {"titleNView": false},
+				  "disableScroll": true,
+				  "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+			  "navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/balance/balance",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+				// "titleNView": {
+				// 	"button": [
+				// 	],
+				// 	"searchInput": {
+				// 		"backgroundColor": "#fff",
+				// 		"borderRadius": "6px", //输入框圆角
+				// 		"placeholder": "请输入搜索内容"
+				// 	}
+				// }
+			}
+		},
+		{
+			"path": "pages/cash/cash",
+			"style": {
+				"navigationBarTitleText": "提现申请"
+				// 	"button": [
+				// 	],
+				// 	"searchInput": {
+				// 		"backgroundColor": "#fff",
+				// 		"borderRadius": "6px", //输入框圆角
+				// 		"placeholder": "请输入搜索内容"
+				// 	}
+				// }
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#B7B7BE",
+		"selectedColor": "#B7B7BE",
+		"borderStyle": "black",
+		"backgroundColor": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home1.png",
+				"selectedIconPath": "static/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/xd.png",
+				"selectedIconPath": "static/xd1.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "驿到家",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

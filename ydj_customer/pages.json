@@ -1,0 +1,158 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "驿到家"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/parts/parts",
+			"style": {
+				"navigationBarTitleText": "选择驿站"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/placeanorder/placeanorder",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				},
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/payment/payment",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/increase/increase",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/paymentonbehalfof/paymentonbehalfof",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		},
+		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "用户信息"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/modify/modify",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/zfb/zfb",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#B7B7BE",
+		"selectedColor": "#B7B7BE",
+		"borderStyle": "black",
+		"backgroundColor": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home1.png",
+				"selectedIconPath": "static/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/parts/parts",
+				"iconPath": "static/bg2.png",
+				"selectedIconPath": "static/bg.png",
+				"text": "取件"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/xd.png",
+				"selectedIconPath": "static/xd1.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { 
+		"current": 0,
+		"list": [
+			{
+				"name": "",
+				"path": "", 
+				"query": "" 
+			}
+		]
+	}
+}
